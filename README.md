@@ -1,5 +1,30 @@
-![]
+Visual Transformer (ViT) made from scratch with PyTorch.
 
+The model was trained on the MNIST dataset.
+
+# Hyperparameters
+- HEIGHT = 32
+- WIDTH = 32
+- CHANNELS = 1
+- BATCH_SIZE = 32
+- PATCHES_DIM = 16
+- EMBEDDING_DIM = 512
+- NUM_CLASSES = 10
+- NHEADS = 8
+- DROPOUT_P = 0.1
+- EPOCHS = 25
+- LEARNING_RATE = 1e-3
+- FORWARD_EXPANSION = 4
+- MLP_EXPANSION = 3
+- MOMENTUM = 0.9
+- NUM_LAYERS = 8
+- DEVICE = "cuda" (In my case GTX 750 Ti)
+
+# Performance of the model
+![](https://github.com/sudo-Erno/Visual-Transformer/blob/master/media/Performance.png)
+
+# Output
+![](https://github.com/sudo-Erno/Visual-Transformer/blob/master/media/Predictions.png)
 
 # RESOURCES
 
