@@ -1,3 +1,6 @@
+![]
+
+
 # RESOURCES
 
 - AN IMAGE IS WORTH 16X16 WORDS: https://arxiv.org/pdf/2010.11929.pdf
